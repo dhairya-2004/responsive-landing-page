@@ -1964,10 +1964,13 @@ h2 {
     flex-basis: 105%;
   }
   .button1-text {
-    padding: 12px 49px;
+    padding: 12px 40px;
   }
   .about-me{
     padding-right: 50px;
+  }
+  t1{
+    font-size: 12px;
   }
 }
 
