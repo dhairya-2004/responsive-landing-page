@@ -37,8 +37,12 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 278px;
+  background-color: #0b0b0b;
   padding-top: 50px;
   padding-bottom: 30px;
+}
+.moon {
+  display: flex;
 }
 .inner-div {
   display: flex;
@@ -819,6 +823,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 91px;
+    background-color: #000000;
   }
   .img {
     width: auto;
@@ -1115,9 +1120,10 @@ h2 {
 @media (max-width: 986px) and (min-width: 431px) {
   nav {
     gap: 70px;
+    background-color: #000000;
   }
   .inner-frame {
-    padding: 0 155px;
+    padding: 0 145px;
   }
   h1 {
     font-size: 180px;
@@ -1182,11 +1188,15 @@ h2 {
   .txt-frame {
     font-size: 20px;
   }
+  .button1-text{
+    padding: 12px 75px;
+  }
 }
 
 @media (max-width: 888px) and (min-width: 431px) {
   nav {
     gap: 45px;
+    background-color: #000000;
   }
   .option {
     gap: 22px;
@@ -1195,7 +1205,7 @@ h2 {
     gap: 15px;
   }
   .inner-frame {
-    padding: 0px 120px;
+    padding: 0px 100px;
   }
   h1 {
     font-size: 165px;
@@ -1301,9 +1311,10 @@ h2 {
   }
   nav {
     gap: 420px;
+    background-color: #000000;
   }
   .inner-frame {
-    padding: 0 90px;
+    padding: 0 75px;
   }
   h1 {
     font-size: 150px;
@@ -1390,9 +1401,10 @@ h2 {
 @media (max-width: 640px) and (min-width: 431px) {
   nav {
     gap: 395px;
+    background-color: #000000;
   }
   .inner-frame {
-    padding: 0 60px;
+    padding: 0 48px;
   }
   h1 {
     font-size: 130px;
@@ -1463,6 +1475,7 @@ h2 {
 @media (max-width: 545px) and (min-width: 431px) {
   nav {
     gap: 265px;
+    background-color: #000000;
   }
   .inner-frame {
     padding: 0 25px;
@@ -1603,6 +1616,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 443px;
+    background-color: #000000;
   }
 
   h1 {
@@ -1849,6 +1863,7 @@ h2 {
 @media (max-width: 1690px) and (min-width: 1025px) {
   nav {
     gap: 400px;
+    background-color: #000000;
   }
 
   .text2 {
@@ -1903,11 +1918,15 @@ h2 {
   .inner-div {
     flex-basis: 109%;
   }
+  .about-me{
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 1600px) and (min-width: 1025px) {
   nav {
     gap: 350px;
+    background-color: #000000;
   }
   .frame5 {
     gap: 35px;
@@ -1947,6 +1966,9 @@ h2 {
   .button1-text {
     padding: 12px 49px;
   }
+  .about-me{
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 1490px) and (min-width: 1025px) {
@@ -1955,6 +1977,9 @@ h2 {
   }
   h2 {
     font-size: 103px;
+  }
+  nav {
+    background-color: #000000;
   }
   .social-media {
     gap: 55px;
@@ -1991,6 +2016,9 @@ h2 {
   .zigzag {
     width: 160px;
   }
+  .about-me{
+    padding-right: 50px;
+  }
 }
 @media (max-width: 1400px) and (min-width: 1025px) {
   .star {
@@ -1998,6 +2026,7 @@ h2 {
   }
   nav {
     gap: 270px;
+    background-color: #000000;
   }
   .number,
   .number1,
@@ -2021,6 +2050,9 @@ h2 {
   .para {
     font-size: 35px;
   }
+  .about-me{
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 1300px) and (min-width: 1025px) {
@@ -2035,6 +2067,7 @@ h2 {
   }
   nav {
     gap: 240px;
+    background-color: #000000;
   }
   .img-nav1 {
     width: 550px;
@@ -2082,11 +2115,15 @@ h2 {
   .para {
     font-size: 30px;
   }
+  .about-me{
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 1200px) and (min-width: 1025px) {
   nav {
     gap: 185px;
+    background-color: #000000;
   }
   h1 {
     font-size: 150px;
@@ -2142,6 +2179,7 @@ h2 {
 @media (max-width: 1090px) and (min-width: 1025px) {
   nav {
     gap: 160px;
+    background-color: #000000;
   }
   .img-nav1 {
     width: 485px;
@@ -2218,6 +2256,7 @@ h2 {
     gap: 365px;
     padding-top: 70px;
     padding-bottom: 70px;
+    background-color: #000000;
   }
   .option {
     display: flex;
@@ -2356,61 +2395,69 @@ h2 {
     padding-left: 80px;
     padding-right: 80px;
   }
-  .a,.c,.d,.e {
+  .a,
+  .c,
+  .d,
+  .e {
     font-size: 80px;
   }
-  .about-me,.image-description,.image-description1 {
+  .about-me,
+  .image-description,
+  .image-description1 {
     font-size: 80px;
   }
-  .in-image ,.in-image1,.in-image2{
+  .in-image,
+  .in-image1,
+  .in-image2 {
     max-height: 1200px;
     object-fit: cover;
   }
-  .zigzag{
+  .zigzag {
     display: block;
   }
-  .skills,.portfolio{
+  .skills,
+  .portfolio {
     font-size: 100px;
   }
-  .about{
+  .about {
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap: 40px;
     font-size: 100px;
   }
-  .inner-div{
-    gap:150px;
+  .inner-div {
+    gap: 150px;
   }
-  .image{
+  .image {
     padding-top: 60px;
   }
-  .div2{
+  .div2 {
     padding-top: 90px;
     gap: 75px;
   }
-  .div3{
+  .div3 {
     padding-top: 90px;
     padding-bottom: 450px;
   }
-  .img1{
+  .img1 {
     width: 240px;
   }
 
-  .txt-frame{
+  .txt-frame {
     font-size: 28px;
     padding-left: 256px;
     padding-top: 44px;
     padding-right: 44px;
     padding-bottom: 44px;
   }
-  .bottom{
+  .bottom {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
     margin-top: 60px;
   }
-  .txt-bottom{
+  .txt-bottom {
     font-size: 36px;
   }
 }
