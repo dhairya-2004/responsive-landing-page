@@ -40,7 +40,7 @@ nav {
   padding-top: 50px;
   padding-bottom: 30px;
 }
-.inner-div{
+.inner-div {
   display: flex;
   flex-direction: column;
 }
@@ -1177,7 +1177,7 @@ h2 {
     display: none;
   }
   .frame34 {
-    margin-top: -55px;
+    margin-top: 25px;
   }
   .txt-frame {
     font-size: 20px;
@@ -1380,7 +1380,7 @@ h2 {
     text-align: start;
   }
   .frame34 {
-    margin-top: -75px;
+    margin-top: 42px;
   }
   .bottom {
     gap: 110px;
@@ -1900,6 +1900,9 @@ h2 {
   .frame37 {
     width: 90%;
   }
+  .inner-div {
+    flex-basis: 109%;
+  }
 }
 
 @media (max-width: 1600px) and (min-width: 1025px) {
@@ -2204,5 +2207,210 @@ h2 {
   }
   .img-footer1 {
     width: 100px;
+  }
+}
+
+@media (max-width: 1920px) and (min-width: 1729px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    gap: 365px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .option {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: #ffffff;
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+  }
+  .switch-mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    background: #ffec70;
+    border-radius: 32px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 55px;
+    background: #925ff0;
+    border-radius: 4px;
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  h1 {
+    font-size: 200px;
+    line-height: 190px;
+  }
+  h2 {
+    font-size: 115px;
+    line-height: 102px;
+  }
+  .z {
+    width: 70px;
+  }
+  .social-media {
+    gap: 48px;
+  }
+  .buttons {
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 130px;
+    font-size: 30px;
+    line-height: 30px;
+    gap: 20px;
+  }
+  .image-leaves {
+    display: block;
+  }
+  .mid,
+  .hero {
+    padding: 0px 80px 160px 80px;
+  }
+  .new-frame {
+    max-width: 900px;
+  }
+  .p1,
+  .p2,
+  .p3 {
+    gap: 30px;
+  }
+  .number,
+  .number1,
+  .number2 {
+    font-size: 90px;
+    line-height: 70px;
+  }
+  .description,
+  .description1,
+  .description2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .frame5 {
+    flex-direction: row;
+  }
+  .dawn {
+    display: block;
+  }
+  .in-frame1 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background: #0b0b0b;
+    border: 1px solid #737373;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .mi1,
+  .mi2 {
+    flex-direction: row;
+  }
+  .frame21 {
+    flex-direction: row;
+  }
+  .txt2 {
+    font-size: 23px;
+    line-height: 25px;
+    padding-bottom: 30px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .para {
+    font-size: 63px;
+  }
+  .frame23 {
+    gap: 120px;
+  }
+  .frame29 {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .a,.c,.d,.e {
+    font-size: 80px;
+  }
+  .about-me,.image-description,.image-description1 {
+    font-size: 80px;
+  }
+  .in-image ,.in-image1,.in-image2{
+    max-height: 1200px;
+    object-fit: cover;
+  }
+  .zigzag{
+    display: block;
+  }
+  .skills,.portfolio{
+    font-size: 100px;
+  }
+  .about{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    font-size: 100px;
+  }
+  .inner-div{
+    gap:150px;
+  }
+  .image{
+    padding-top: 60px;
+  }
+  .div2{
+    padding-top: 90px;
+    gap: 75px;
+  }
+  .div3{
+    padding-top: 90px;
+    padding-bottom: 450px;
+  }
+  .img1{
+    width: 240px;
+  }
+
+  .txt-frame{
+    font-size: 28px;
+    padding-left: 256px;
+    padding-top: 44px;
+    padding-right: 44px;
+    padding-bottom: 44px;
+  }
+  .bottom{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 60px;
+  }
+  .txt-bottom{
+    font-size: 36px;
   }
 }
